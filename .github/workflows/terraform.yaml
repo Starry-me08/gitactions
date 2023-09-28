@@ -4,7 +4,7 @@ on: [push]
 
 env:
    AWS_ACCESS_KEY_ID: ${{ secrets.DF_ID }}
-   AWS_SECRET_ACCESS_KEy: ${{ secrets.DF_KEY }}
+   AWS_SECRET_ACCESS_KEY: ${{ secrets.DF_KEY }}
 
 jobs:
   terraform:
