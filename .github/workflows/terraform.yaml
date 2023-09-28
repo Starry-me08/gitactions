@@ -3,8 +3,8 @@ name: terraform
 on: [push]
 
 env:
-   AWS_ACCESS_KEY_ID: ${{ secrets.KEY_ID }}
-   AWS_SECRET_ACCESS_KEy: ${{ secrets.ACCESS_KEY }}
+   AWS_ACCESS_KEY_ID: ${{ secrets.Df_ID }}
+   AWS_SECRET_ACCESS_KEy: ${{ secrets.DF_KEY }}
 
 jobs:
   terraform:

@@ -1,6 +1,6 @@
 provider "aws" {
-  region  = "us-east-2"
-  profile = "new_terraform"
+  region = "us-east-2"
+  #profile = "new_terraform"
 }
 
 resource "aws_vpc" "name" {
