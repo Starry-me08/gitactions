@@ -1,6 +1,7 @@
 # Local .terraform directories
 **/.terraform/*
 *.DS
+*.terraform.lock.hcl
 *.history
 *.gitignore
 # .tfstate files
