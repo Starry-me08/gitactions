@@ -4,20 +4,20 @@ on: [push]
 
 jobs:
   terraform:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-    - name: Terraform set-up
-      uses: hashicorp/setup-terraform@v2
-      with:
-         terraform_version: 1.5.7
-    - name: Initialize
-      run: terraform init
-    - name: format
-      run: terraform fmt -check
-    - name: Validate
-      run: terraform validate
-    - name: plan
-      run: terraform plan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Terraform set-up
+        uses: hashicorp/setup-terraform@v2
+        with:
+           terraform_version: 1.5.7
+      - name: Initialize
+        run: terraform init
+      - name: format
+        run: terraform fmt -check
+      - name: Validate
+        run: terraform validate
+      - name: plan
+        run: terraform plan
     
