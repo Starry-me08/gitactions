@@ -1,6 +1,8 @@
 # Local .terraform directories
 **/.terraform/*
-
+*.DS
+*.history
+*.gitignore
 # .tfstate files
 *.tfstate
 *.tfstate.*
